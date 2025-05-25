@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preventa SP500 Token</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Preventa SP500 Token</h1>
+    <img src="https://raw.githubusercontent.com/<TU_USUARIO>/sp500-token-assets/main/assets/sp500_logo.png" alt="SP500 Logo" width="100">
+  </header>
+  <section>
+    <p>SP500: Token ERC-20 en Ethereum con 500M de suministro. Inspirado en el índice S&P 500, ofrece estabilidad para inversores. Listo para trading en DEX/CEX. Sitio oficial: <a href="https://sp500token.pro">sp500token.pro</a>.</p>
+    <button onclick="connectWallet()">Conectar MetaMask</button>
+    <div id="wallet-info"></div>
+    <input type="number" id="ethAmount" placeholder="Cantidad de ETH">
+    <button onclick="buyTokens()">Comprar SP500</button>
+    <div id="status"></div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
