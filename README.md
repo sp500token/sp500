@@ -46,30 +46,16 @@ sp500-token/
    git clone https://github.com/[tu-usuario]/sp500-token.git
    cd sp500-token
 2. Install Dependencies (if using a development environment like Hardhat or Truffle):
-bash
-
-Contraer
-
-Ajuste
-
-Ejecutar
-
-Copiar
 npm install
-Deploy the Contract (requires Ethereum wallet and network access):
+
+3. Deploy the Contract (requires Ethereum wallet and network access):
 Configure your deployment script with the contract address and private key.
 Run the deployment script:
-bash
-
-Contraer
-
-Ajuste
-
-Ejecutar
-
-Copiar
 npx hardhat run scripts/deploy.js --network mainnet
+
 Note: Ensure you have the verified Solidity code from Etherscan or your original file.
+
+
 Team
 Led by experts in blockchain and finance. Profiles are available upon request at info@sp500token.pro.
 
