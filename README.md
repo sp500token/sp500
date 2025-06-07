@@ -25,3 +25,64 @@ Welcome to the official GitHub repository for **SP500 Token**, an ERC-20 token o
 - **Reserve**: 100,000,000 SP500 (20%)
 
 ## Repository Structure
+sp500-token/
+├── contracts/         # Smart contract files
+│   └── SP500Token.sol
+├── scripts/           # Deployment scripts
+│   └── deploy.js
+├── public/            # Frontend files (optional)
+│   ├── index.html
+│   └── assets/
+│       ├── index-DFxLYDN7.css
+│       └── index-jtB66GQM.js
+├── docs/              # Documentation
+│   └── sp500_whitepaper_combined.pdf
+└── README.md          # This file
+
+
+## Installation and Usage
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/[tu-usuario]/sp500-token.git
+   cd sp500-token
+2. Install Dependencies (if using a development environment like Hardhat or Truffle):
+bash
+
+Contraer
+
+Ajuste
+
+Ejecutar
+
+Copiar
+npm install
+Deploy the Contract (requires Ethereum wallet and network access):
+Configure your deployment script with the contract address and private key.
+Run the deployment script:
+bash
+
+Contraer
+
+Ajuste
+
+Ejecutar
+
+Copiar
+npx hardhat run scripts/deploy.js --network mainnet
+Note: Ensure you have the verified Solidity code from Etherscan or your original file.
+Team
+Led by experts in blockchain and finance. Profiles are available upon request at info@sp500token.pro.
+
+Legal Considerations
+No affiliation with Standard & Poor’s.
+Complies with applicable regulations; investors should verify local laws.
+No guarantees of returns; the presale involves risks.
+Refunds available if objectives are not met (details at https://sp500token.pro/terms).
+License
+This project is licensed under the MIT License - see the LICENSE file for details (add a LICENSE file if not present).
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
+
+Contact
+For any inquiries or support, please contact us at info@sp500token.pro or join our Telegram community.
