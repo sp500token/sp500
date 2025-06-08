@@ -10,7 +10,7 @@ Welcome to the official GitHub repository for **SP500 Token**, an ERC-20 token o
 - **Standard**: ERC-20
 - **Total Supply**: 500,000,000 SP500
 - **Website**: [https://sp500token.pro](https://sp500token.pro)
-- **Whitepaper**: [Combined Spanish/English Version](https://sp500token.pro/docs/sp500_whitepaper_combined.pdf)
+- **Whitepaper**: [Combined Spanish/English Version](https://sp500token.pro/docs/sp500_whitepaper.pdf)
 - **Social Media**:
   - Telegram: [https://t.me/sp500tokenOFICIAL](https://t.me/sp500tokenOFICIAL)
   - X: [https://x.com/sp500token](https://x.com/sp500token)
@@ -43,7 +43,7 @@ sp500-token/
 ## Installation and Usage
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[tu-usuario]/sp500-token.git
+   git clone https://github.com/sp500/sp500-token.git
    cd sp500-token
 2. Install Dependencies (if using a development environment like Hardhat or Truffle):
 npm install
